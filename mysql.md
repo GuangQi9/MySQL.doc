@@ -14,7 +14,8 @@
 
   1. 更新源
    * sudo vim /etc/apt/sources.list
-   
+   1. This text
+1. This textis
        1.  将下面的源粘贴到源列表
   
   * deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted universe multiverse
