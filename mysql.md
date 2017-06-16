@@ -35,10 +35,10 @@
 * deb http://extras.ubuntu.com/ubuntu/ xenial main
 
 3. 进行更新
- * sudo apt-get update 
+* sudo apt-get update 
 4. 安装Apache以及MySQL
  * sudo apt-get install tasksel
- * sudo tasksel
+  * sudo tasksel
 
    
 
