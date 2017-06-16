@@ -14,9 +14,8 @@
 
   1. 更新源
    * sudo vim /etc/apt/sources.list
-   1. This text
-1. This textis
-       1.  将下面的源粘贴到源列表
+
+       2.  将下面的源粘贴到源列表
   
   * deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted universe multiverse
 * deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted universe multiverse
@@ -35,5 +34,12 @@
 * deb http://archive.canonical.com/ubuntu/ xenial partner
 * deb http://extras.ubuntu.com/ubuntu/ xenial main
 
+3. 进行更新
+* sudo apt-get update 
+4. 安装Apache以及MySQL
+* sudo apt-get install tasksel
+* sudo tasksel
+
    
+
 
