@@ -37,8 +37,8 @@
 3. 进行更新
 * sudo apt-get update 
 4. 安装Apache以及MySQL
- * sudo apt-get install tasksel
-  * sudo tasksel
+* sudo apt-get install tasksel
+* sudo tasksel
 
    
 
