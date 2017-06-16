@@ -14,7 +14,7 @@
 
   1. 更新源
    
-    *  sudo vim /etc/apt/sources.list
+    * sudo vim /etc/apt/sources.list
 
 
    
