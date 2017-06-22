@@ -72,5 +72,23 @@
 
 * 如果你不想test2有密码，可以再打一个命令将密码消掉。 grant select,insert,update,delete on mydb.* to [email=test2@localhost]test2@localhost[/email] identified by "";
 
+### 创建数据库
+* 注意：创建数据库之前要先连接Mysql服务器
+* 命令：create database <数据库名>
+* 例如：建立一个名为student的数据库 mysql> create database student
+#### 显示数据库
+* show databases;
+#### 删除数据库
+* drop database <数据库名> 例如：删除名为 student的数据库 mysql> drop database student;
+#### 使用数据库
+* use 数据库名
+#### 输出相关信息
+* mysql> select database();
+
+### 创建数据表
+* create table <表名> ( <字段名1> <类型1> [,..<字段名n> <类型n>]);
+* 如：create table MyClass(
+
+> id int(4) not null primary key auto_increment, name char(20) not null, sex int(4) not null default '0', degree double(16,2));
 
 
