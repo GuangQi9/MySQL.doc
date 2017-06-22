@@ -39,7 +39,7 @@
 4. 安装Apache以及MySQL
 * sudo apt-get install tasksel
 * sudo tasksel
-5.安装workbench
+5. 安装workbench
 * sudo apt-get install mysql-workbench
 
 ### MySQL命令
