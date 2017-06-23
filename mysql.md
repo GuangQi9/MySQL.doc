@@ -90,5 +90,19 @@
 * 如：create table MyClass(
 
 > id int(4) not null primary key auto_increment, name char(20) not null, sex int(4) not null default '0', degree double(16,2));
-
+#### 表结构
+* desc 表名 //查看表格结构
+### 删除表
+* drop table <表名>
+#### 表中插入数据
+* insert into <表名> [( <字段名1>[,..<字段名n > ])] values ( 值1 )[, ( 值n )]
+* insert into每次只能向表中插入一条记录。
+#### 表中数据的其他操作
+* 查询： select <字段1，字段2，...> from < 表名 > where < 表达式 >
+* 删除： delete from 表名 where 表达式
+* 修改：update 表名 set 字段=新值,... where 条件 mysql> update MyClass set name='Mary' where id=1;
+#### 字段操作
+* 增加字段： alter table 表名 add字段 类型 其他;
+* 修改字段： ALTER TABLE table_name CHANGE old_field_name new_field_name field_type;
+* 删除字段：ALTER TABLE table_name DROP field_name;
 
