@@ -4,4 +4,4 @@ course表
 用命令行进行插入数据
 删除表以及数据
 用workbench进行建表并进行插入数据
-且
+且把information表改成student表
