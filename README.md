@@ -8,6 +8,6 @@
 
 
 ## 技术文档
-* [Linux](./linux.md)
+* [Linux](./Linux.md)
 * [Github](./github.md)
-* [MySQL](./MySQL.md)
+* [MySQL](./mysql.md)
